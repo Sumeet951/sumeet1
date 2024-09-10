@@ -1,0 +1,171 @@
+body{
+    margin:0px;
+    /* overflow: hidden; */
+}
+
+/* .login{
+    background-color: white;
+    width: 60%;
+    height: 100vh;
+} */
+.devconnect{
+    display: flex;
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    
+}
+.logo{
+    height: 27px;
+    background-color: #003049;
+    width: 40px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #003049;
+}
+.logo-connect{
+    background-color: white;
+    color: #003049;
+    height: 27px;
+    display: flex;
+    width:82px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #003049;
+    font-weight: 600;
+}
+.rect{
+    height: 42px;
+    width: 6px;
+    background-color: #003049;
+    position: absolute;
+    left: 57px;
+    top: 150px;
+}
+.head1{
+    width: 372px;
+    height: 42px;
+    position: absolute;
+    left: 79px;
+    top: 150px;
+    font-size: 35px;
+    line-height: 42px;
+    color: #003049;
+    font-weight: 700;
+    font-family: "Inria Sans", sans-serif;
+}
+.a{
+    width: 400px;
+    height: 24px;
+    position: absolute;
+    top: 200px;
+    left: 57px;
+    font-weight: 300px;
+    font-size: 20px;
+    font-family: "Inria Sans", sans-serif;
+    line-height: 24px;
+}
+.user{
+    position: absolute;
+    width:394px ;
+    height:50px ;
+    top:293px ;
+    left:60px ;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+     box-shadow: 0px 0px 20px 0px #00304933;
+     opacity: 1;
+     display: flex;
+
+}
+input::placeholder{
+    font-size: 15px;
+}
+input{
+    margin-left: 45px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+input:active{
+    border: 5px solid white;
+}
+
+i{
+    width:19.78px ;
+    height: 25.43px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+   
+}
+.password{
+    border-radius: 25px;
+    background-color: #FFFFFF;
+     box-shadow: 0px 0px 20px 0px #00304933;
+     opacity: 1;
+     display: flex;
+     position: absolute;
+    width:394px ;
+    height:50px ;
+    top:366px ;
+    left:60px ;
+
+}
+.login-button{
+    position: absolute;
+    width:188px ;
+    height:40px ;
+    top:464px ;
+    left:57px ;
+    background-color: #003049;
+    color: white;
+    font-family: "Inria Sans", sans-serif;
+}
+.signup-button{
+    position: absolute;
+    width:188px ;
+    height:40px ;
+    top:464px;
+    left:266px ;
+    color:#003049;
+   background-color:white;
+    font-family: "Inria Sans", sans-serif;
+
+}
+.text-sign{
+    position: absolute;
+    width:150px ;
+    height:12px ;
+    top:447px;
+    left:268px ;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    font-family: "Inria Sans", sans-serif;
+    color: #003049;
+
+}
+.image{
+    background-image:url("image.png");
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 562px;
+}
+
+
+
+ 
+
